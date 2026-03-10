@@ -1,0 +1,86 @@
+<head>
+
+	<style>
+		.img{ position: absolute; height:25px; width:25px ;} 
+	</style>
+</head>
+<body>
+
+<h3>Заполните обязательные поля, чтобы добавить данные в таблицу</h3>
+
+<form>
+    <p>
+        Тип камушков: 
+        <select>
+            <option>Сапфиры</option>
+			<option>Алмазы</option>
+			<option>Рубины</option>
+        </select>
+    </p>
+    <p>
+        Год: <input type="date"> <img class="img" rel="icon" src="https://img.freepik.com/premium-vector/check-mark_565824-646.jpg?semt=ais_hybrid&w=740&q=80" >
+    </p>
+    <p>
+        Количество: <input type="text"> <img class="img" rel="icon" src="https://yandex-images.clstorage.net/Q53VP1S31/61c991fN/YuEQTeQQtCdlXxldJZozHLLYMY16JMPnCmW4BNdbHSeRwGJRWhp_74iJL65dyaww3GWg1M2wB7PQtdCVfQwneXPlFP0VYQFzIGssSXGbs_yWzLTtm-QTxX13SkewWZ5UR2IhsFo-appMKOuKS06tE_pjtrNq55OhlyR1t5sspxzh84GbMKfndFbdei11n9GP4b4xP4tmUDXslns04WjuNjWzolFKf-mq7f-L-kkta-IrsBXxaPcDYlW210QI_KZ8QOJiKXGm5helnWjed9xRfmFccK8bxjEVzYQIJQNJz8f1whBTqA8qGD3-eoi6nCszS6L00IrlIRLllOSXCM1H_lPhkViTZFc25C1azEXOE64BXeJ_S-bRl4yl-gazCa7VV5DR4Ls_iaounLq4me2rAGmCl8MpN4DTFJV11OlNl20SsNPp4DZXJ6bcefykHhCPsOwCz4qn8Cccx8h1Mcuu5EWBIHEZflhY3K2KOXqtueD4AbSz-jeQoxX1BLc4PudtQVIjSjA3ZsRF_TnOR_2CjmGvc1z6BJNEL9VKFwLrDaZ3UeAz-g7ZyM4PerlL3bmgaUOHk4nWkvJnhRflKTwWHGADgxszhHW3FNyY3JecMx6RrgCf2WegJy-kO0UyyO0UlpHRAol_GFlOPNs6mt_JsitRNVKbp5AD5Ybn9Dh-xd7Ao5NbMeXHZKc-qCyUHjDuUq_RXkvl03R_xgonsCmv5Hcy8bBIzEp673xoecjNOABYE8RwWkaC0tcFtSUrjiYew5ECaqIWBKY2XPheF4xxXXG8A12aVAE2_FRbVDMqzUa2AeHB2167ys-PKDupnctxWXDEkOhmAxJkNNf0eU2kf4HikdnhddTVJk6bXHWPcw-Dj6GMWbfCJ_xVGBcz6n2Xt9Gz06kMOmuP_Vj7Saz5YKkiJcDYx3EjNTeGhXufZc9i8QMa45XWRqYs2_9Xv_Ddwq-QrUlkIycP5XlXE1s8Y" >
+    </p>
+    <p>
+        <button type="submit">Отправить</button>
+    </p>
+</form>
+
+<table border="1">
+    <caption>Добыча драгоценных камней</caption>
+    <thead>
+        <tr>
+            <th rowspan="2">Камушек</th>
+            <th colspan="3">Год</th>
+        </tr>
+        <tr>
+            <th>2010</th>
+            <th>2012</th>
+            <th>2014</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Сапфиры</td>
+            <td rowspan="2">1483</td>
+            <td>4532</td>
+            <td>6743</td>
+        </tr>
+        <tr>
+            <td>Рубины</td>
+            <td>3835</td>
+            <td>7482</td>
+        </tr>
+        <tr>
+            <td>Алмазы</td>
+            <td>683</td>
+            <td colspan="2">238</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4">
+                Итого: много миллионов
+                <ol type="I">
+                    <li>
+                        Итого по видам драгоценных камней: много тысяч
+                        <ul>
+                            <li><a href="#">Сапфиров</a> немыслимое количество</li>
+                            <li>Но <a href="#">рубинов</a> под конец всё же больше</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Итого по полудрагоценным камням
+                        <ul>
+                            <li><a href="#">Изумрудов</a> 0</li>
+                            <li><a href="#">Топазов</a> 0</li>
+                            <li><a href="#">Опалов</a> тоже 0</li>
+                        </ul>
+                    </li>
+                </ol>
+            </td>
+        </tr>
+</table>
+</body>
